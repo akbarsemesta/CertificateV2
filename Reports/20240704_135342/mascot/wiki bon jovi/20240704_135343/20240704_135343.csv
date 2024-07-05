@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+wiki bon jovi,Chrome 126.0.0.0,,,04-07-2024 13:54:15,04-07-2024 13:54:36,21.439s,PASSED
+,,,,,,,
+Test Cases/Wikipedia/Open Bon Jovi,Chrome 126.0.0.0,,,04-07-2024 13:54:15,04-07-2024 13:54:36,21.225s,PASSED
+"openBrowser(""https://www.wikipedia.org/"")",Chrome 126.0.0.0,,,04-07-2024 13:54:15,04-07-2024 13:54:24,9.204s,PASSED
+"setText(findTestObject(""Wikipedia/box wikipedia search""), ""Bon Jovi"")",Chrome 126.0.0.0,,,04-07-2024 13:54:24,04-07-2024 13:54:25,0.863s,PASSED
+delay(3),Chrome 126.0.0.0,,,04-07-2024 13:54:25,04-07-2024 13:54:28,3.043s,PASSED
+"click(findTestObject(""Wikipedia/klik button search""))",Chrome 126.0.0.0,,,04-07-2024 13:54:28,04-07-2024 13:54:32,3.810s,PASSED
+delay(4),Chrome 126.0.0.0,,,04-07-2024 13:54:32,04-07-2024 13:54:36,4.019s,PASSED

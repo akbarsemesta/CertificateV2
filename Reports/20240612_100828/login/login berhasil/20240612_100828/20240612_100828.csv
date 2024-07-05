@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login berhasil,Chrome 125.0.0.0,,,12-06-2024 10:08:38,12-06-2024 10:09:10,32.398s,PASSED
+,,,,,,,
+Test Cases/User Management - Role and Menu/Open Role and Menu,Chrome 125.0.0.0,,,12-06-2024 10:08:38,12-06-2024 10:08:56,17.477s,PASSED
+"openBrowser(""http://206.189.158.91:8080/sparepart-factory-cms/login.zul"")",Chrome 125.0.0.0,,,12-06-2024 10:08:38,12-06-2024 10:08:50,11.989s,PASSED
+"setText(findTestObject(""login mascot/1. input username""), ""sadm001"")",Chrome 125.0.0.0,,,12-06-2024 10:08:50,12-06-2024 10:08:52,1.159s,PASSED
+"setText(findTestObject(""login mascot/2. input password""), ""Abc123!"")",Chrome 125.0.0.0,,,12-06-2024 10:08:52,12-06-2024 10:08:53,1.114s,PASSED
+"click(findTestObject(""login mascot/3. klik button login""))",Chrome 125.0.0.0,,,12-06-2024 10:08:53,12-06-2024 10:08:53,0.543s,PASSED
+delay(2),Chrome 125.0.0.0,,,12-06-2024 10:08:53,12-06-2024 10:08:55,2.045s,PASSED
+"click(findTestObject(""User Management - Role and Menu/Role and Menu""))",Chrome 125.0.0.0,,,12-06-2024 10:08:55,12-06-2024 10:08:56,0.334s,PASSED
+,,,,,,,
+Test Cases/User Management - Role and Menu/Search Active State - Active,Chrome 125.0.0.0,,,12-06-2024 10:08:56,12-06-2024 10:09:03,7.744s,PASSED
+"click(findTestObject(""User Management - Role and Menu/Search by Active State""))",Chrome 125.0.0.0,,,12-06-2024 10:08:56,12-06-2024 10:08:57,1.532s,PASSED
+"click(findTestObject(""User Management - Role and Menu/Active State - Click button Active""))",Chrome 125.0.0.0,,,12-06-2024 10:08:57,12-06-2024 10:08:58,0.662s,PASSED
+"click(findTestObject(""User Management - Role and Menu/Role and Menu - Click Button Search""))",Chrome 125.0.0.0,,,12-06-2024 10:08:58,12-06-2024 10:08:58,0.393s,PASSED
+delay(5),Chrome 125.0.0.0,,,12-06-2024 10:08:58,12-06-2024 10:09:03,5.015s,PASSED
+,,,,,,,
+Test Cases/User Management - Role and Menu/Search Active State - Inactive,Chrome 125.0.0.0,,,12-06-2024 10:09:03,12-06-2024 10:09:10,6.978s,PASSED
+"click(findTestObject(""User Management - Role and Menu/Search by Active State""))",Chrome 125.0.0.0,,,12-06-2024 10:09:03,12-06-2024 10:09:04,0.677s,PASSED
+"click(findTestObject(""User Management - Role and Menu/Active State - Click button Inactive""))",Chrome 125.0.0.0,,,12-06-2024 10:09:04,12-06-2024 10:09:05,0.874s,PASSED
+"click(findTestObject(""User Management - Role and Menu/Role and Menu - Click Button Search""))",Chrome 125.0.0.0,,,12-06-2024 10:09:05,12-06-2024 10:09:05,0.321s,PASSED
+delay(5),Chrome 125.0.0.0,,,12-06-2024 10:09:05,12-06-2024 10:09:10,5.008s,PASSED

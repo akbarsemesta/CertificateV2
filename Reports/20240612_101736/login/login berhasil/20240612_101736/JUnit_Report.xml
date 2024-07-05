@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login berhasil" time="42.705" tests="2" failures="0" errors="0">
+   <testsuite name="login berhasil" tests="2" failures="0" errors="0" time="42.705" skipped="0" timestamp="12-06-2024T10:17:46" hostname="0789 - DESKTOP-51HVGAE" id="Test Suites/login/login berhasil">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0789\\Katalon Studio\\dev mascot\\Reports\\20240612_101736\\login\\login berhasil\\20240612_101736"/>
+         <property name="logFiles" value="C:\\Users\\0789\\Katalon Studio\\dev mascot\\Reports\\20240612_101736\\login\\login berhasil\\20240612_101736\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0789 - DESKTOP-51HVGAE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.131.208"/>
+         <property name="sessionId" value="7f258445f67cbd67733e95e31efa97a1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User Management - Role and Menu/Open Role and Menu" time="10.924" classname="Test Cases/User Management - Role and Menu/Open Role and Menu" status="PASSED">
+         <system-out><![CDATA[12-06-2024T10:17:46 - [TEST_CASE][PASSED] - Test Cases/User Management - Role and Menu/Open Role and Menu: Test Cases/User Management - Role and Menu/Open Role and Menu
+
+12-06-2024T10:17:46 - [TEST_STEP][PASSED] - openBrowser("http://206.189.158.91:8080/sparepart-factory-cms/login.zul"): Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+12-06-2024T10:17:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-06-2024T10:17:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-06-2024T10:17:52 - [MESSAGE][PASSED] - Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+12-06-2024T10:17:52 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/1. input username"), "sadm001"): Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+12-06-2024T10:17:52 - [MESSAGE][PASSED] - Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+12-06-2024T10:17:52 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/2. input password"), "Abc123!"): Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+12-06-2024T10:17:54 - [MESSAGE][PASSED] - Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+12-06-2024T10:17:54 - [TEST_STEP][PASSED] - click(findTestObject("login mascot/3. klik button login")): Object: 'Object Repository/login mascot/3. klik button login' is clicked on
+
+12-06-2024T10:17:54 - [MESSAGE][PASSED] - Object: 'Object Repository/login mascot/3. klik button login' is clicked on
+
+12-06-2024T10:17:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+12-06-2024T10:17:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+12-06-2024T10:17:56 - [TEST_STEP][PASSED] - click(findTestObject("User Management - Role and Menu/Role and Menu")): Object: 'Object Repository/User Management - Role and Menu/Role and Menu' is clicked on
+
+12-06-2024T10:17:57 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management - Role and Menu/Role and Menu' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Management - Role and Menu/Role and Menu - Download" time="31.578" classname="Test Cases/User Management - Role and Menu/Role and Menu - Download" status="PASSED">
+         <system-out><![CDATA[12-06-2024T10:17:57 - [TEST_CASE][PASSED] - Test Cases/User Management - Role and Menu/Role and Menu - Download: Test Cases/User Management - Role and Menu/Role and Menu - Download
+
+12-06-2024T10:17:57 - [TEST_STEP][PASSED] - click(findTestObject("User Management - Role and Menu/Role and Menu - Download")): Object: 'Object Repository/User Management - Role and Menu/Role and Menu - Download' is clicked on
+
+12-06-2024T10:17:58 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management - Role and Menu/Role and Menu - Download' is clicked on
+
+12-06-2024T10:17:58 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+12-06-2024T10:18:28 - [MESSAGE][PASSED] - Delayed 30 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-06-2024T10:17:46 - [TEST_SUITE][PASSED] - login berhasil: Test Cases/User Management - Role and Menu/Role and Menu - Download]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

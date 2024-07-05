@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login berhasil,,,,04-07-2024 14:46:16,04-07-2024 14:54:12,7m - 55.664s,FAILED
+,,,,,,,
+Test Cases/login mascot/login,,,,04-07-2024 14:51:15,04-07-2024 14:54:12,2m - 56.845s,FAILED
+"a = ""http://206.189.158.91:8080/sparepart-factory-cms/login.zul""",,,,04-07-2024 14:51:23,04-07-2024 14:51:23,0.006s,PASSED
+openBrowser(a),,,,04-07-2024 14:51:23,04-07-2024 14:54:12,2m - 49.045s,FAILED

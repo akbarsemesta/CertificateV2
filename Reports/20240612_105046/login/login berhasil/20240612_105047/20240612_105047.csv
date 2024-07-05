@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login berhasil,Chrome 125.0.0.0,,,12-06-2024 10:50:56,12-06-2024 10:51:29,32.793s,PASSED
+,,,,,,,
+Test Cases/User Management - Master NFC/Open Master NFC,Chrome 125.0.0.0,,,12-06-2024 10:50:56,12-06-2024 10:51:17,20.182s,PASSED
+"openBrowser(""http://206.189.158.91:8080/sparepart-factory-cms/login.zul"")",Chrome 125.0.0.0,,,12-06-2024 10:50:57,12-06-2024 10:51:08,10.914s,PASSED
+"setText(findTestObject(""login mascot/1. input username""), ""sadm001"")",Chrome 125.0.0.0,,,12-06-2024 10:51:08,12-06-2024 10:51:08,0.837s,PASSED
+"setText(findTestObject(""login mascot/2. input password""), ""Abc123!"")",Chrome 125.0.0.0,,,12-06-2024 10:51:08,12-06-2024 10:51:09,0.915s,PASSED
+"click(findTestObject(""login mascot/3. klik button login""))",Chrome 125.0.0.0,,,12-06-2024 10:51:09,12-06-2024 10:51:10,0.468s,PASSED
+delay(3),Chrome 125.0.0.0,,,12-06-2024 10:51:10,12-06-2024 10:51:13,3.045s,PASSED
+"click(findTestObject(""User Management - Master NFC/Open Master NFC""))",Chrome 125.0.0.0,,,12-06-2024 10:51:13,12-06-2024 10:51:14,0.688s,PASSED
+delay(3),Chrome 125.0.0.0,,,12-06-2024 10:51:14,12-06-2024 10:51:17,3.005s,PASSED
+,,,,,,,
+Test Cases/User Management - Master NFC/Search Active NFC - Active,Chrome 125.0.0.0,,,12-06-2024 10:51:17,12-06-2024 10:51:23,6.337s,PASSED
+"click(findTestObject(""User Management - Master NFC/Search by Active NFC""))",Chrome 125.0.0.0,,,12-06-2024 10:51:17,12-06-2024 10:51:17,0.388s,PASSED
+"click(findTestObject(""User Management - Master NFC/Active NFC - Active""))",Chrome 125.0.0.0,,,12-06-2024 10:51:17,12-06-2024 10:51:18,0.770s,PASSED
+"click(findTestObject(""User Management - Master NFC/Master NFC - Click button Search""))",Chrome 125.0.0.0,,,12-06-2024 10:51:18,12-06-2024 10:51:19,1.058s,PASSED
+delay(4),Chrome 125.0.0.0,,,12-06-2024 10:51:19,12-06-2024 10:51:23,4.009s,PASSED
+,,,,,,,
+Test Cases/User Management - Master NFC/Search Active NFC - Inactive,Chrome 125.0.0.0,,,12-06-2024 10:51:23,12-06-2024 10:51:29,6.068s,PASSED
+"click(findTestObject(""User Management - Master NFC/Search by Active NFC""))",Chrome 125.0.0.0,,,12-06-2024 10:51:23,12-06-2024 10:51:23,0.357s,PASSED
+"click(findTestObject(""User Management - Master NFC/Active NFC - Inactive""))",Chrome 125.0.0.0,,,12-06-2024 10:51:23,12-06-2024 10:51:24,0.534s,PASSED
+"click(findTestObject(""User Management - Master NFC/Master NFC - Click button Search""))",Chrome 125.0.0.0,,,12-06-2024 10:51:24,12-06-2024 10:51:25,1.051s,PASSED
+delay(4),Chrome 125.0.0.0,,,12-06-2024 10:51:25,12-06-2024 10:51:29,4.006s,PASSED

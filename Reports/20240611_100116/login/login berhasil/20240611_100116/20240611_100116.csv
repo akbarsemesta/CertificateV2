@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login berhasil,Chrome 125.0.0.0,,,11-06-2024 10:01:24,11-06-2024 10:01:32,7.517s,PASSED
+,,,,,,,
+Test Cases/Login - Show Password/Show Password,Chrome 125.0.0.0,,,11-06-2024 10:01:24,11-06-2024 10:01:32,7.307s,PASSED
+"openBrowser(""http://178.128.48.62:8080/sparepart-factory-cms/login.zul"")",Chrome 125.0.0.0,,,11-06-2024 10:01:25,11-06-2024 10:01:30,4.859s,PASSED
+"setText(findTestObject(""login mascot/1. input username""), ""sadm001"")",Chrome 125.0.0.0,,,11-06-2024 10:01:30,11-06-2024 10:01:30,0.791s,PASSED
+"setText(findTestObject(""login mascot/2. input password""), ""Abc123!"")",Chrome 125.0.0.0,,,11-06-2024 10:01:30,11-06-2024 10:01:31,0.649s,PASSED
+"click(findTestObject(""Login - Show password/Show Password""))",Chrome 125.0.0.0,,,11-06-2024 10:01:31,11-06-2024 10:01:31,0.398s,PASSED
+"click(findTestObject(""Login - Show password/Show Password""))",Chrome 125.0.0.0,,,11-06-2024 10:01:31,11-06-2024 10:01:32,0.311s,PASSED

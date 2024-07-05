@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+master user,Chrome 126.0.0.0,,,04-07-2024 11:53:21,04-07-2024 11:53:44,23.859s,PASSED
+,,,,,,,
+Test Cases/login mascot/login,Chrome 126.0.0.0,,,04-07-2024 11:53:21,04-07-2024 11:53:35,14.237s,PASSED
+"a = ""http://206.189.158.91:8080/sparepart-factory-cms/login.zul""",Chrome 126.0.0.0,,,04-07-2024 11:53:21,04-07-2024 11:53:21,0.005s,PASSED
+openBrowser(a),Chrome 126.0.0.0,,,04-07-2024 11:53:21,04-07-2024 11:53:30,8.759s,PASSED
+"setText(findTestObject(""login mascot/input username""), UserName)",Chrome 126.0.0.0,,,04-07-2024 11:53:30,04-07-2024 11:53:31,0.820s,PASSED
+"setText(findTestObject(""login mascot/input password""), Password)",Chrome 126.0.0.0,,,04-07-2024 11:53:31,04-07-2024 11:53:31,0.738s,PASSED
+"click(findTestObject(""login mascot/klik button login""))",Chrome 126.0.0.0,,,04-07-2024 11:53:31,04-07-2024 11:53:32,0.449s,PASSED
+delay(3),Chrome 126.0.0.0,,,04-07-2024 11:53:32,04-07-2024 11:53:35,3.047s,PASSED
+,,,,,,,
+Test Cases/User Management - Master User/Open Master User,Chrome 126.0.0.0,,,04-07-2024 11:53:35,04-07-2024 11:53:44,9.389s,PASSED
+"a = ""http://206.189.158.91:8080/sparepart-factory-cms/login.zul""",Chrome 126.0.0.0,,,04-07-2024 11:53:35,04-07-2024 11:53:35,0.002s,PASSED
+openBrowser(a),Chrome 126.0.0.0,,,04-07-2024 11:53:35,04-07-2024 11:53:39,3.504s,PASSED
+"setText(findTestObject(""login mascot/input username""), UserName)",Chrome 126.0.0.0,,,04-07-2024 11:53:39,04-07-2024 11:53:39,0.723s,PASSED
+"setText(findTestObject(""login mascot/input password""), Password)",Chrome 126.0.0.0,,,04-07-2024 11:53:39,04-07-2024 11:53:40,0.690s,PASSED
+"click(findTestObject(""login mascot/klik button login""))",Chrome 126.0.0.0,,,04-07-2024 11:53:40,04-07-2024 11:53:41,0.521s,PASSED
+delay(1),Chrome 126.0.0.0,,,04-07-2024 11:53:41,04-07-2024 11:53:42,1.015s,PASSED
+"click(findTestObject(""User Management - Master User/Master User2""))",Chrome 126.0.0.0,,,04-07-2024 11:53:42,04-07-2024 11:53:42,0.721s,PASSED
+delay(2),Chrome 126.0.0.0,,,04-07-2024 11:53:42,04-07-2024 11:53:44,2.015s,PASSED

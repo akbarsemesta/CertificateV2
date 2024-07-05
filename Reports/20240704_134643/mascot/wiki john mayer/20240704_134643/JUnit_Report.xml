@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="wiki john mayer" time="29.938" tests="1" failures="0" errors="0">
+   <testsuite name="wiki john mayer" tests="1" failures="0" errors="0" time="29.938" skipped="0" timestamp="04-07-2024T13:46:51" hostname="0789 - DESKTOP-51HVGAE" id="Test Suites/mascot/wiki john mayer">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0789\\Katalon Studio\\dev mascot\\Reports\\20240704_134643\\mascot\\wiki john mayer\\20240704_134643"/>
+         <property name="logFiles" value="C:\\Users\\0789\\Katalon Studio\\dev mascot\\Reports\\20240704_134643\\mascot\\wiki john mayer\\20240704_134643\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0789 - DESKTOP-51HVGAE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.73.2"/>
+         <property name="sessionId" value="85f4cf5ba1ccf0069ca6a7f83d7b9897"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Wikipedia/Open John Mayer" time="29.683" classname="Test Cases/Wikipedia/Open John Mayer" status="PASSED">
+         <system-out><![CDATA[04-07-2024T13:46:51 - [TEST_CASE][PASSED] - Test Cases/Wikipedia/Open John Mayer: Test Cases/Wikipedia/Open John Mayer
+
+04-07-2024T13:46:51 - [TEST_STEP][PASSED] - openBrowser("https://www.wikipedia.org/"): Browser is opened with url: 'https://www.wikipedia.org/'
+
+04-07-2024T13:46:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-07-2024T13:46:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-07-2024T13:47:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.wikipedia.org/'
+
+04-07-2024T13:47:10 - [TEST_STEP][PASSED] - setText(findTestObject("Wikipedia/box wikipedia search"), "John Mayer"): Text 'John Mayer' is set on object 'Object Repository/Wikipedia/box wikipedia search'
+
+04-07-2024T13:47:11 - [MESSAGE][PASSED] - Text 'John Mayer' is set on object 'Object Repository/Wikipedia/box wikipedia search'
+
+04-07-2024T13:47:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+04-07-2024T13:47:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+04-07-2024T13:47:14 - [TEST_STEP][PASSED] - click(findTestObject("Wikipedia/klik button search")): Object: 'Object Repository/Wikipedia/klik button search' is clicked on
+
+04-07-2024T13:47:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Wikipedia/klik button search' is clicked on
+
+04-07-2024T13:47:17 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+04-07-2024T13:47:21 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-07-2024T13:46:51 - [TEST_SUITE][PASSED] - wiki john mayer: Test Cases/Wikipedia/Open John Mayer]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

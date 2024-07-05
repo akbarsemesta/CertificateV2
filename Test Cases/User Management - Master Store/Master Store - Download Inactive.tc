@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Master Store - Download Inactive</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9d2dda85-b9ae-44ca-99db-0b57b4f4754d</testCaseGuid>
+</TestCaseEntity>

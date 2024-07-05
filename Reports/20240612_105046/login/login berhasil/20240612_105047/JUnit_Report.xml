@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login berhasil" time="32.793" tests="3" failures="0" errors="0">
+   <testsuite name="login berhasil" tests="3" failures="0" errors="0" time="32.793" skipped="0" timestamp="12-06-2024T10:50:56" hostname="0789 - DESKTOP-51HVGAE" id="Test Suites/login/login berhasil">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0789\\Katalon Studio\\dev mascot\\Reports\\20240612_105046\\login\\login berhasil\\20240612_105047"/>
+         <property name="logFiles" value="C:\\Users\\0789\\Katalon Studio\\dev mascot\\Reports\\20240612_105046\\login\\login berhasil\\20240612_105047\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0789 - DESKTOP-51HVGAE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.131.208"/>
+         <property name="sessionId" value="fcc00c1b989af4219e96ae5ceb43e5f3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User Management - Master NFC/Open Master NFC" time="20.182" classname="Test Cases/User Management - Master NFC/Open Master NFC" status="PASSED">
+         <system-out><![CDATA[12-06-2024T10:50:56 - [TEST_CASE][PASSED] - Test Cases/User Management - Master NFC/Open Master NFC: Test Cases/User Management - Master NFC/Open Master NFC
+
+12-06-2024T10:50:57 - [TEST_STEP][PASSED] - openBrowser("http://206.189.158.91:8080/sparepart-factory-cms/login.zul"): Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+12-06-2024T10:50:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-06-2024T10:50:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-06-2024T10:51:08 - [MESSAGE][PASSED] - Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+12-06-2024T10:51:08 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/1. input username"), "sadm001"): Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+12-06-2024T10:51:08 - [MESSAGE][PASSED] - Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+12-06-2024T10:51:08 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/2. input password"), "Abc123!"): Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+12-06-2024T10:51:09 - [MESSAGE][PASSED] - Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+12-06-2024T10:51:09 - [TEST_STEP][PASSED] - click(findTestObject("login mascot/3. klik button login")): Object: 'Object Repository/login mascot/3. klik button login' is clicked on
+
+12-06-2024T10:51:10 - [MESSAGE][PASSED] - Object: 'Object Repository/login mascot/3. klik button login' is clicked on
+
+12-06-2024T10:51:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+12-06-2024T10:51:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+12-06-2024T10:51:13 - [TEST_STEP][PASSED] - click(findTestObject("User Management - Master NFC/Open Master NFC")): Object: 'Object Repository/User Management - Master NFC/Open Master NFC' is clicked on
+
+12-06-2024T10:51:14 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management - Master NFC/Open Master NFC' is clicked on
+
+12-06-2024T10:51:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+12-06-2024T10:51:17 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Management - Master NFC/Search Active NFC - Active" time="6.337" classname="Test Cases/User Management - Master NFC/Search Active NFC - Active" status="PASSED">
+         <system-out><![CDATA[12-06-2024T10:51:17 - [TEST_CASE][PASSED] - Test Cases/User Management - Master NFC/Search Active NFC - Active: Test Cases/User Management - Master NFC/Search Active NFC - Active
+
+12-06-2024T10:51:17 - [TEST_STEP][PASSED] - click(findTestObject("User Management - Master NFC/Search by Active NFC")): Object: 'Object Repository/User Management - Master NFC/Search by Active NFC' is clicked on
+
+12-06-2024T10:51:17 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management - Master NFC/Search by Active NFC' is clicked on
+
+12-06-2024T10:51:17 - [TEST_STEP][PASSED] - click(findTestObject("User Management - Master NFC/Active NFC - Active")): Object: 'Object Repository/User Management - Master NFC/Active NFC - Active' is clicked on
+
+12-06-2024T10:51:18 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management - Master NFC/Active NFC - Active' is clicked on
+
+12-06-2024T10:51:18 - [TEST_STEP][PASSED] - click(findTestObject("User Management - Master NFC/Master NFC - Click button Search")): Object: 'Object Repository/User Management - Master NFC/Master NFC - Click button Search' is clicked on
+
+12-06-2024T10:51:19 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management - Master NFC/Master NFC - Click button Search' is clicked on
+
+12-06-2024T10:51:19 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+12-06-2024T10:51:23 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Management - Master NFC/Search Active NFC - Inactive" time="6.068" classname="Test Cases/User Management - Master NFC/Search Active NFC - Inactive" status="PASSED">
+         <system-out><![CDATA[12-06-2024T10:51:23 - [TEST_CASE][PASSED] - Test Cases/User Management - Master NFC/Search Active NFC - Inactive: Test Cases/User Management - Master NFC/Search Active NFC - Inactive
+
+12-06-2024T10:51:23 - [TEST_STEP][PASSED] - click(findTestObject("User Management - Master NFC/Search by Active NFC")): Object: 'Object Repository/User Management - Master NFC/Search by Active NFC' is clicked on
+
+12-06-2024T10:51:23 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management - Master NFC/Search by Active NFC' is clicked on
+
+12-06-2024T10:51:23 - [TEST_STEP][PASSED] - click(findTestObject("User Management - Master NFC/Active NFC - Inactive")): Object: 'Object Repository/User Management - Master NFC/Active NFC - Inactive' is clicked on
+
+12-06-2024T10:51:24 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management - Master NFC/Active NFC - Inactive' is clicked on
+
+12-06-2024T10:51:24 - [TEST_STEP][PASSED] - click(findTestObject("User Management - Master NFC/Master NFC - Click button Search")): Object: 'Object Repository/User Management - Master NFC/Master NFC - Click button Search' is clicked on
+
+12-06-2024T10:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management - Master NFC/Master NFC - Click button Search' is clicked on
+
+12-06-2024T10:51:25 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+12-06-2024T10:51:29 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-06-2024T10:50:56 - [TEST_SUITE][PASSED] - login berhasil: Test Cases/User Management - Master NFC/Search Active NFC - Inactive]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

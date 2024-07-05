@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login berhasil,Chrome 125.0.0.0,,,11-06-2024 11:42:33,11-06-2024 11:42:55,22.121s,PASSED
+,,,,,,,
+Test Cases/User Management - Master Store/Open Master Store,Chrome 125.0.0.0,,,11-06-2024 11:42:33,11-06-2024 11:42:49,16.140s,PASSED
+"openBrowser(""http://206.189.158.91:8080/sparepart-factory-cms/login.zul"")",Chrome 125.0.0.0,,,11-06-2024 11:42:33,11-06-2024 11:42:40,6.617s,PASSED
+"setText(findTestObject(""login mascot/1. input username""), ""sadm001"")",Chrome 125.0.0.0,,,11-06-2024 11:42:40,11-06-2024 11:42:40,0.824s,PASSED
+"setText(findTestObject(""login mascot/2. input password""), ""Abc123!"")",Chrome 125.0.0.0,,,11-06-2024 11:42:40,11-06-2024 11:42:41,0.754s,PASSED
+"click(findTestObject(""login mascot/3. klik button login""))",Chrome 125.0.0.0,,,11-06-2024 11:42:41,11-06-2024 11:42:42,0.397s,PASSED
+"click(findTestObject(""User Management - Master Store/Master Store""))",Chrome 125.0.0.0,,,11-06-2024 11:42:42,11-06-2024 11:42:44,2.184s,PASSED
+delay(5),Chrome 125.0.0.0,,,11-06-2024 11:42:44,11-06-2024 11:42:49,5.044s,PASSED
+,,,,,,,
+Test Cases/User Management - Master Store/Simple Search,Chrome 125.0.0.0,,,11-06-2024 11:42:49,11-06-2024 11:42:55,5.778s,PASSED
+"setText(findTestObject(""User Management - Master Store/Master Store - BOX Simple Search""), ""jay"")",Chrome 125.0.0.0,,,11-06-2024 11:42:49,11-06-2024 11:42:51,2.287s,PASSED
+"click(findTestObject(""User Management - Master Store/Master Store - Click Button Search""))",Chrome 125.0.0.0,,,11-06-2024 11:42:51,11-06-2024 11:42:52,0.331s,PASSED
+delay(3),Chrome 125.0.0.0,,,11-06-2024 11:42:52,11-06-2024 11:42:55,3.013s,PASSED

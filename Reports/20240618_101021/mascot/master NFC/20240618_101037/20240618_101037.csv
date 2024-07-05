@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+master NFC,Chrome 126.0.0.0,,,18-06-2024 10:14:07,18-06-2024 10:14:32,24.530s,PASSED
+,,,,,,,
+Test Cases/login mascot/login,Chrome 126.0.0.0,,,18-06-2024 10:14:07,18-06-2024 10:14:18,10.283s,PASSED
+"openBrowser(""http://206.189.158.91:8080/sparepart-factory-cms/login.zul"")",Chrome 126.0.0.0,,,18-06-2024 10:14:08,18-06-2024 10:14:16,8.036s,PASSED
+"setText(findTestObject(""login mascot/1. input username""), ""sadm001"")",Chrome 126.0.0.0,,,18-06-2024 10:14:16,18-06-2024 10:14:17,0.838s,PASSED
+"setText(findTestObject(""login mascot/2. input password""), ""Abc123!"")",Chrome 126.0.0.0,,,18-06-2024 10:14:17,18-06-2024 10:14:17,0.640s,PASSED
+"click(findTestObject(""login mascot/3. klik button login""))",Chrome 126.0.0.0,,,18-06-2024 10:14:17,18-06-2024 10:14:18,0.484s,PASSED
+,,,,,,,
+Test Cases/User Management - Master NFC/Open Master NFC,Chrome 126.0.0.0,,,18-06-2024 10:14:18,18-06-2024 10:14:32,14.055s,PASSED
+"openBrowser(""http://206.189.158.91:8080/sparepart-factory-cms/login.zul"")",Chrome 126.0.0.0,,,18-06-2024 10:14:18,18-06-2024 10:14:23,5.530s,PASSED
+"setText(findTestObject(""login mascot/1. input username""), ""sadm001"")",Chrome 126.0.0.0,,,18-06-2024 10:14:23,18-06-2024 10:14:24,0.695s,PASSED
+"setText(findTestObject(""login mascot/2. input password""), ""Abc123!"")",Chrome 126.0.0.0,,,18-06-2024 10:14:24,18-06-2024 10:14:25,0.660s,PASSED
+"click(findTestObject(""login mascot/3. klik button login""))",Chrome 126.0.0.0,,,18-06-2024 10:14:25,18-06-2024 10:14:25,0.431s,PASSED
+delay(3),Chrome 126.0.0.0,,,18-06-2024 10:14:25,18-06-2024 10:14:28,3.033s,PASSED
+"click(findTestObject(""User Management - Master NFC/Open Master NFC""))",Chrome 126.0.0.0,,,18-06-2024 10:14:28,18-06-2024 10:14:29,0.563s,PASSED
+delay(3),Chrome 126.0.0.0,,,18-06-2024 10:14:29,18-06-2024 10:14:32,3.014s,PASSED

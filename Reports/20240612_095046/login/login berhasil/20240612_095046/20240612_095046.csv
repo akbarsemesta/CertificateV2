@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login berhasil,Chrome 125.0.0.0,,,12-06-2024 09:50:56,12-06-2024 09:51:22,26.642s,PASSED
+,,,,,,,
+Test Cases/User Management - Role and Menu/Open Role and Menu,Chrome 125.0.0.0,,,12-06-2024 09:50:56,12-06-2024 09:51:17,21.111s,PASSED
+"openBrowser(""http://206.189.158.91:8080/sparepart-factory-cms/login.zul"")",Chrome 125.0.0.0,,,12-06-2024 09:50:56,12-06-2024 09:51:11,14.586s,PASSED
+"setText(findTestObject(""login mascot/1. input username""), ""sadm001"")",Chrome 125.0.0.0,,,12-06-2024 09:51:11,12-06-2024 09:51:12,0.968s,PASSED
+"setText(findTestObject(""login mascot/2. input password""), ""Abc123!"")",Chrome 125.0.0.0,,,12-06-2024 09:51:12,12-06-2024 09:51:13,0.897s,PASSED
+"click(findTestObject(""login mascot/3. klik button login""))",Chrome 125.0.0.0,,,12-06-2024 09:51:13,12-06-2024 09:51:13,0.392s,PASSED
+delay(2),Chrome 125.0.0.0,,,12-06-2024 09:51:13,12-06-2024 09:51:15,2.033s,PASSED
+"click(findTestObject(""User Management - Role and Menu/Role and Menu""))",Chrome 125.0.0.0,,,12-06-2024 09:51:15,12-06-2024 09:51:17,1.929s,PASSED
+,,,,,,,
+Test Cases/User Management - Role and Menu/Search by Role Name,Chrome 125.0.0.0,,,12-06-2024 09:51:17,12-06-2024 09:51:22,5.334s,PASSED
+"setText(findTestObject(""User Management - Role and Menu/Search by Role Name""), ""FINANCE"")",Chrome 125.0.0.0,,,12-06-2024 09:51:17,12-06-2024 09:51:19,1.708s,PASSED
+"click(findTestObject(""User Management - Role and Menu/Role and Menu - Click Button Search""))",Chrome 125.0.0.0,,,12-06-2024 09:51:19,12-06-2024 09:51:19,0.448s,PASSED
+delay(3),Chrome 125.0.0.0,,,12-06-2024 09:51:19,12-06-2024 09:51:22,3.026s,PASSED

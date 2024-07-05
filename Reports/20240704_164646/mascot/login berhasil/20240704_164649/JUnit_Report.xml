@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login berhasil" time="40.341" tests="1" failures="0" errors="0">
+   <testsuite name="login berhasil" tests="1" failures="0" errors="0" time="40.341" skipped="0" timestamp="04-07-2024T16:47:28" hostname="0789 - DESKTOP-51HVGAE" id="Test Suites/mascot/login berhasil">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0789\\Katalon Studio\\dev mascot\\Reports\\20240704_164646\\mascot\\login berhasil\\20240704_164649"/>
+         <property name="logFiles" value="C:\\Users\\0789\\Katalon Studio\\dev mascot\\Reports\\20240704_164646\\mascot\\login berhasil\\20240704_164649\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0789 - DESKTOP-51HVGAE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.73.2"/>
+         <property name="sessionId" value="ec5fcea2a3aadb0bde109238a3fd676c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login mascot/login" time="39.515" classname="Test Cases/login mascot/login" status="PASSED">
+         <system-out><![CDATA[04-07-2024T16:47:29 - [TEST_CASE][PASSED] - Test Cases/login mascot/login: Test Cases/login mascot/login
+
+04-07-2024T16:47:31 - [TEST_STEP][PASSED] - a = "http://206.189.158.91:8080/sparepart-factory-cms/login.zul": null
+
+04-07-2024T16:47:31 - [TEST_STEP][PASSED] - openBrowser(a): Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+04-07-2024T16:47:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-07-2024T16:47:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-07-2024T16:47:57 - [MESSAGE][PASSED] - Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+04-07-2024T16:47:57 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/input username"), UserName): Text 'sadm001' is set on object 'Object Repository/login mascot/input username'
+
+04-07-2024T16:48:05 - [MESSAGE][PASSED] - Text 'sadm001' is set on object 'Object Repository/login mascot/input username'
+
+04-07-2024T16:48:05 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/input password"), Password): Text 'Abc123!' is set on object 'Object Repository/login mascot/input password'
+
+04-07-2024T16:48:05 - [MESSAGE][PASSED] - Text 'Abc123!' is set on object 'Object Repository/login mascot/input password'
+
+04-07-2024T16:48:05 - [TEST_STEP][PASSED] - click(findTestObject("login mascot/klik button login")): Object: 'Object Repository/login mascot/klik button login' is clicked on
+
+04-07-2024T16:48:06 - [MESSAGE][PASSED] - Object: 'Object Repository/login mascot/klik button login' is clicked on
+
+04-07-2024T16:48:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+04-07-2024T16:48:09 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-07-2024T16:47:28 - [TEST_SUITE][PASSED] - login berhasil: Test Cases/login mascot/login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

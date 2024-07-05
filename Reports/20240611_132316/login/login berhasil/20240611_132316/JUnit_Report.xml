@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login berhasil" time="45.818" tests="2" failures="0" errors="0">
+   <testsuite name="login berhasil" tests="2" failures="0" errors="0" time="45.818" skipped="0" timestamp="11-06-2024T13:23:25" hostname="0789 - DESKTOP-51HVGAE" id="Test Suites/login/login berhasil">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0789\\Katalon Studio\\dev mascot\\Reports\\20240611_132316\\login\\login berhasil\\20240611_132316"/>
+         <property name="logFiles" value="C:\\Users\\0789\\Katalon Studio\\dev mascot\\Reports\\20240611_132316\\login\\login berhasil\\20240611_132316\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0789 - DESKTOP-51HVGAE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.131.208"/>
+         <property name="sessionId" value="7a48ef6390fd2dcf1cb05f54dbb35c0f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User Management - Master User/Open Master User" time="37.861" classname="Test Cases/User Management - Master User/Open Master User" status="PASSED">
+         <system-out><![CDATA[11-06-2024T13:23:25 - [TEST_CASE][PASSED] - Test Cases/User Management - Master User/Open Master User: Test Cases/User Management - Master User/Open Master User
+
+11-06-2024T13:23:25 - [TEST_STEP][PASSED] - openBrowser("http://206.189.158.91:8080/sparepart-factory-cms/login.zul"): Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+11-06-2024T13:23:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2024T13:23:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2024T13:23:41 - [MESSAGE][PASSED] - Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+11-06-2024T13:23:41 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/1. input username"), "sadm001"): Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+11-06-2024T13:23:42 - [MESSAGE][PASSED] - Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+11-06-2024T13:23:42 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/2. input password"), "Abc123!"): Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+11-06-2024T13:23:42 - [MESSAGE][PASSED] - Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+11-06-2024T13:23:42 - [TEST_STEP][PASSED] - click(findTestObject("login mascot/3. klik button login")): Object: 'Object Repository/login mascot/3. klik button login' is clicked on
+
+11-06-2024T13:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/login mascot/3. klik button login' is clicked on
+
+11-06-2024T13:23:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+11-06-2024T13:23:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+11-06-2024T13:23:44 - [TEST_STEP][PASSED] - click(findTestObject("User Management - Master User/Master User")): Object: 'Object Repository/User Management - Master User/Master User' is clicked on
+
+11-06-2024T13:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management - Master User/Master User' is clicked on
+
+11-06-2024T13:24:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-06-2024T13:24:03 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Management - Master User/Search by User ID" time="7.746" classname="Test Cases/User Management - Master User/Search by User ID" status="PASSED">
+         <system-out><![CDATA[11-06-2024T13:24:03 - [TEST_CASE][PASSED] - Test Cases/User Management - Master User/Search by User ID: Test Cases/User Management - Master User/Search by User ID
+
+11-06-2024T13:24:03 - [TEST_STEP][PASSED] - setText(findTestObject("User Management - Master User/Search by User ID"), "114 MTR"): Text '114 MTR' is set on object 'Object Repository/User Management - Master User/Search by User ID'
+
+11-06-2024T13:24:08 - [MESSAGE][PASSED] - Text '114 MTR' is set on object 'Object Repository/User Management - Master User/Search by User ID'
+
+11-06-2024T13:24:08 - [TEST_STEP][PASSED] - click(findTestObject("User Management - Master User/User Management - Click Button Search")): Object: 'Object Repository/User Management - Master User/User Management - Click Button Search' is clicked on
+
+11-06-2024T13:24:09 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management - Master User/User Management - Click Button Search' is clicked on
+
+11-06-2024T13:24:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-06-2024T13:24:11 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-06-2024T13:23:25 - [TEST_SUITE][PASSED] - login berhasil: Test Cases/User Management - Master User/Search by User ID]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

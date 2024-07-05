@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search Active State - Inactive</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3505a890-e75d-468c-8e79-5ab8fbf4cf2e</testCaseGuid>
+</TestCaseEntity>

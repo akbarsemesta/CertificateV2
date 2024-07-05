@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Store Active State - Inactive</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>069684e5-66cb-4d0e-ad67-7f39e40c855c</testCaseGuid>
+</TestCaseEntity>

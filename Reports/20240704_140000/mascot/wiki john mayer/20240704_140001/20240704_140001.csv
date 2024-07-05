@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+wiki john mayer,Chrome 126.0.0.0,,,04-07-2024 14:00:10,04-07-2024 14:00:33,23.192s,PASSED
+,,,,,,,
+Test Cases/Wikipedia/Open John Mayer,Chrome 126.0.0.0,,,04-07-2024 14:00:10,04-07-2024 14:00:33,22.994s,PASSED
+"openBrowser(""https://www.wikipedia.org/"")",Chrome 126.0.0.0,,,04-07-2024 14:00:11,04-07-2024 14:00:22,11.752s,PASSED
+"setText(findTestObject(""Wikipedia/box wikipedia search""), ""John Mayer"")",Chrome 126.0.0.0,,,04-07-2024 14:00:22,04-07-2024 14:00:23,0.860s,PASSED
+delay(3),Chrome 126.0.0.0,,,04-07-2024 14:00:23,04-07-2024 14:00:26,3.060s,PASSED
+"click(findTestObject(""Wikipedia/klik button search""))",Chrome 126.0.0.0,,,04-07-2024 14:00:26,04-07-2024 14:00:29,3.033s,PASSED
+delay(4),Chrome 126.0.0.0,,,04-07-2024 14:00:29,04-07-2024 14:00:33,4.015s,PASSED

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login berhasil" time="7.517" tests="1" failures="0" errors="0">
+   <testsuite name="login berhasil" tests="1" failures="0" errors="0" time="7.517" skipped="0" timestamp="11-06-2024T10:01:24" hostname="0789 - DESKTOP-51HVGAE" id="Test Suites/login/login berhasil">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0789\\Katalon Studio\\dev mascot\\Reports\\20240611_100116\\login\\login berhasil\\20240611_100116"/>
+         <property name="logFiles" value="C:\\Users\\0789\\Katalon Studio\\dev mascot\\Reports\\20240611_100116\\login\\login berhasil\\20240611_100116\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0789 - DESKTOP-51HVGAE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.10.211"/>
+         <property name="sessionId" value="2bbcf3158c595d7460c9105791d7cdf1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login - Show Password/Show Password" time="7.307" classname="Test Cases/Login - Show Password/Show Password" status="PASSED">
+         <system-out><![CDATA[11-06-2024T10:01:24 - [TEST_CASE][PASSED] - Test Cases/Login - Show Password/Show Password: Test Cases/Login - Show Password/Show Password
+
+11-06-2024T10:01:25 - [TEST_STEP][PASSED] - openBrowser("http://178.128.48.62:8080/sparepart-factory-cms/login.zul"): Browser is opened with url: 'http://178.128.48.62:8080/sparepart-factory-cms/login.zul'
+
+11-06-2024T10:01:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2024T10:01:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2024T10:01:30 - [MESSAGE][PASSED] - Browser is opened with url: 'http://178.128.48.62:8080/sparepart-factory-cms/login.zul'
+
+11-06-2024T10:01:30 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/1. input username"), "sadm001"): Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+11-06-2024T10:01:30 - [MESSAGE][PASSED] - Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+11-06-2024T10:01:30 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/2. input password"), "Abc123!"): Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+11-06-2024T10:01:31 - [MESSAGE][PASSED] - Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+11-06-2024T10:01:31 - [TEST_STEP][PASSED] - click(findTestObject("Login - Show password/Show Password")): Object: 'Object Repository/Login - Show password/Show Password' is clicked on
+
+11-06-2024T10:01:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login - Show password/Show Password' is clicked on
+
+11-06-2024T10:01:31 - [TEST_STEP][PASSED] - click(findTestObject("Login - Show password/Show Password")): Object: 'Object Repository/Login - Show password/Show Password' is clicked on
+
+11-06-2024T10:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login - Show password/Show Password' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-06-2024T10:01:24 - [TEST_SUITE][PASSED] - login berhasil: Test Cases/Login - Show Password/Show Password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

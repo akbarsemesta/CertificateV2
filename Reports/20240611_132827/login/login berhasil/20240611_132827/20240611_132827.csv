@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login berhasil,Chrome 125.0.0.0,,,11-06-2024 13:28:35,11-06-2024 13:29:46,1m - 11.053s,PASSED
+,,,,,,,
+Test Cases/User Management - Master User/Open Master User,Chrome 125.0.0.0,,,11-06-2024 13:28:35,11-06-2024 13:29:39,1m - 3.853s,PASSED
+"openBrowser(""http://206.189.158.91:8080/sparepart-factory-cms/login.zul"")",Chrome 125.0.0.0,,,11-06-2024 13:28:36,11-06-2024 13:29:14,38.149s,PASSED
+"setText(findTestObject(""login mascot/1. input username""), ""sadm001"")",Chrome 125.0.0.0,,,11-06-2024 13:29:14,11-06-2024 13:29:15,0.787s,PASSED
+"setText(findTestObject(""login mascot/2. input password""), ""Abc123!"")",Chrome 125.0.0.0,,,11-06-2024 13:29:15,11-06-2024 13:29:15,0.673s,PASSED
+"click(findTestObject(""login mascot/3. klik button login""))",Chrome 125.0.0.0,,,11-06-2024 13:29:15,11-06-2024 13:29:16,0.409s,PASSED
+delay(1),Chrome 125.0.0.0,,,11-06-2024 13:29:16,11-06-2024 13:29:17,1.061s,PASSED
+"click(findTestObject(""User Management - Master User/Master User""))",Chrome 125.0.0.0,,,11-06-2024 13:29:17,11-06-2024 13:29:37,20.443s,PASSED
+delay(2),Chrome 125.0.0.0,,,11-06-2024 13:29:37,11-06-2024 13:29:39,2.015s,PASSED
+,,,,,,,
+Test Cases/User Management - Master User/Search IMEI,Chrome 125.0.0.0,,,11-06-2024 13:29:39,11-06-2024 13:29:46,6.994s,PASSED
+"setText(findTestObject(""User Management - Master User/Search by IMEI""), ""a32b70169"")",Chrome 125.0.0.0,,,11-06-2024 13:29:39,11-06-2024 13:29:44,4.540s,PASSED
+"click(findTestObject(""User Management - Master User/User Management - Click Button Search""))",Chrome 125.0.0.0,,,11-06-2024 13:29:44,11-06-2024 13:29:44,0.314s,PASSED
+delay(2),Chrome 125.0.0.0,,,11-06-2024 13:29:44,11-06-2024 13:29:46,2.008s,PASSED

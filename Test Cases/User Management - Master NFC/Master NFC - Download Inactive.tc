@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Master NFC - Download Inactive</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3a9b50b9-14c8-49af-8d9f-a3d33c6b0ff7</testCaseGuid>
+</TestCaseEntity>

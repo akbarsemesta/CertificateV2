@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+wiki ac milan,Chrome 126.0.0.0,,,04-07-2024 13:58:39,04-07-2024 13:58:57,17.721s,PASSED
+,,,,,,,
+Test Cases/Wikipedia/Open AC Milan,Chrome 126.0.0.0,,,04-07-2024 13:58:39,04-07-2024 13:58:57,17.502s,PASSED
+"openBrowser(""https://www.wikipedia.org/"")",Chrome 126.0.0.0,,,04-07-2024 13:58:40,04-07-2024 13:58:46,6.357s,PASSED
+"setText(findTestObject(""Wikipedia/box wikipedia search""), ""AC Milan"")",Chrome 126.0.0.0,,,04-07-2024 13:58:46,04-07-2024 13:58:47,0.884s,PASSED
+delay(3),Chrome 126.0.0.0,,,04-07-2024 13:58:47,04-07-2024 13:58:50,3.052s,PASSED
+"click(findTestObject(""Wikipedia/klik button search""))",Chrome 126.0.0.0,,,04-07-2024 13:58:50,04-07-2024 13:58:53,2.908s,PASSED
+delay(4),Chrome 126.0.0.0,,,04-07-2024 13:58:53,04-07-2024 13:58:57,4.017s,PASSED

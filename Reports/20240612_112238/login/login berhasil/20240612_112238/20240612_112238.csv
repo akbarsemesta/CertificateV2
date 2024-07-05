@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login berhasil,Chrome 125.0.0.0,,,12-06-2024 11:22:46,12-06-2024 11:23:55,1m - 8.285s,PASSED
+,,,,,,,
+Test Cases/User Management - Master Store/Open Master Store,Chrome 125.0.0.0,,,12-06-2024 11:22:47,12-06-2024 11:23:27,40.264s,PASSED
+"openBrowser(""http://206.189.158.91:8080/sparepart-factory-cms/login.zul"")",Chrome 125.0.0.0,,,12-06-2024 11:22:47,12-06-2024 11:23:19,31.632s,PASSED
+"setText(findTestObject(""login mascot/1. input username""), ""sadm001"")",Chrome 125.0.0.0,,,12-06-2024 11:23:19,12-06-2024 11:23:19,0.898s,PASSED
+"setText(findTestObject(""login mascot/2. input password""), ""Abc123!"")",Chrome 125.0.0.0,,,12-06-2024 11:23:19,12-06-2024 11:23:20,0.803s,PASSED
+"click(findTestObject(""login mascot/3. klik button login""))",Chrome 125.0.0.0,,,12-06-2024 11:23:20,12-06-2024 11:23:21,0.450s,PASSED
+delay(1),Chrome 125.0.0.0,,,12-06-2024 11:23:21,12-06-2024 11:23:22,1.041s,PASSED
+"click(findTestObject(""User Management - Master Store/Master Store""))",Chrome 125.0.0.0,,,12-06-2024 11:23:22,12-06-2024 11:23:24,2.124s,PASSED
+delay(3),Chrome 125.0.0.0,,,12-06-2024 11:23:24,12-06-2024 11:23:27,3.016s,PASSED
+,,,,,,,
+Test Cases/User Management - Master Store/Master Store - Download Active,Chrome 125.0.0.0,,,12-06-2024 11:23:27,12-06-2024 11:23:42,14.618s,PASSED
+"click(findTestObject(""User Management - Master Store/Search by Store Active State""))",Chrome 125.0.0.0,,,12-06-2024 11:23:27,12-06-2024 11:23:28,0.434s,PASSED
+"click(findTestObject(""User Management - Master Store/Store Active State - Click button Inactive""))",Chrome 125.0.0.0,,,12-06-2024 11:23:28,12-06-2024 11:23:28,0.857s,PASSED
+"click(findTestObject(""User Management - Master Store/Master Store - Click Button Search""))",Chrome 125.0.0.0,,,12-06-2024 11:23:28,12-06-2024 11:23:30,1.343s,PASSED
+delay(3),Chrome 125.0.0.0,,,12-06-2024 11:23:30,12-06-2024 11:23:33,3.011s,PASSED
+"click(findTestObject(""User Management - Master Store/Master Store - Download""))",Chrome 125.0.0.0,,,12-06-2024 11:23:33,12-06-2024 11:23:34,0.795s,PASSED
+delay(8),Chrome 125.0.0.0,,,12-06-2024 11:23:34,12-06-2024 11:23:42,8.008s,PASSED
+,,,,,,,
+Test Cases/User Management - Master Store/Master Store - Download Inactive,Chrome 125.0.0.0,,,12-06-2024 11:23:42,12-06-2024 11:23:55,13.185s,PASSED
+"click(findTestObject(""User Management - Master Store/Search by Store Active State""))",Chrome 125.0.0.0,,,12-06-2024 11:23:42,12-06-2024 11:23:42,0.573s,PASSED
+"click(findTestObject(""User Management - Master Store/Store Active State - Click button Active""))",Chrome 125.0.0.0,,,12-06-2024 11:23:42,12-06-2024 11:23:43,0.497s,PASSED
+"click(findTestObject(""User Management - Master Store/Master Store - Click Button Search""))",Chrome 125.0.0.0,,,12-06-2024 11:23:43,12-06-2024 11:23:43,0.583s,PASSED
+delay(3),Chrome 125.0.0.0,,,12-06-2024 11:23:43,12-06-2024 11:23:46,3.012s,PASSED
+"click(findTestObject(""User Management - Master Store/Master Store - Download""))",Chrome 125.0.0.0,,,12-06-2024 11:23:46,12-06-2024 11:23:47,0.362s,PASSED
+delay(8),Chrome 125.0.0.0,,,12-06-2024 11:23:47,12-06-2024 11:23:55,8.011s,PASSED
