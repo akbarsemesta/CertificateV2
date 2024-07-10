@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "3EEFA5F1694F4DA9DBBA3DAB66962CBE",
+  "keywordClasses": [
+    {
+      "name": "mascotdev.OpenAndMaximizeMascotDev",
+      "keywordMethods": [
+        {
+          "name": "OpenandMaximizeBrowser",
+          "parameters": [
+            {
+              "name": "url",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

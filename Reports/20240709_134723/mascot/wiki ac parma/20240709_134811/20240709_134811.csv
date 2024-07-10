@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+wiki ac parma,,,,09-07-2024 13:49:27,09-07-2024 13:49:29,2.111s,FAILED
+,,,,,,,
+Test Cases/Wikipedia/Open AC Parma,,,,09-07-2024 13:49:29,09-07-2024 13:49:29,0.048s,FAILED
+"a = ""https://www.wikipedia.org/""",,,,09-07-2024 13:49:29,09-07-2024 13:49:29,0.007s,PASSED
+openBrowser(a),,,,09-07-2024 13:49:29,09-07-2024 13:49:29,0.026s,FAILED

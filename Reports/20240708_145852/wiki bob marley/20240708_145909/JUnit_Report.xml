@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="wiki bob marley" time="19.058" tests="1" failures="0" errors="0">
+   <testsuite name="wiki bob marley" tests="1" failures="0" errors="0" time="19.058" skipped="0" timestamp="08-07-2024T14:59:39" hostname="0789 - DESKTOP-51HVGAE" id="Test Suites/wiki bob marley">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0789\\git\\CertificateV2\\Reports\\20240708_145852\\wiki bob marley\\20240708_145909"/>
+         <property name="logFiles" value="C:\\Users\\0789\\git\\CertificateV2\\Reports\\20240708_145852\\wiki bob marley\\20240708_145909\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0789 - DESKTOP-51HVGAE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.73.2"/>
+         <property name="sessionId" value="3b0fac42467030524522cc4d25a9e678"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Wikipedia/Open Bob Marley" time="18.845" classname="Test Cases/Wikipedia/Open Bob Marley" status="PASSED">
+         <system-out><![CDATA[08-07-2024T14:59:39 - [TEST_CASE][PASSED] - Test Cases/Wikipedia/Open Bob Marley: Test Cases/Wikipedia/Open Bob Marley
+
+08-07-2024T14:59:40 - [TEST_STEP][PASSED] - openBrowser("https://www.wikipedia.org/"): Browser is opened with url: 'https://www.wikipedia.org/'
+
+08-07-2024T14:59:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-07-2024T14:59:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-07-2024T14:59:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.wikipedia.org/'
+
+08-07-2024T14:59:47 - [TEST_STEP][PASSED] - setText(findTestObject("Wikipedia/box wikipedia search"), "Bob Marley"): Text 'Bob Marley' is set on object 'Object Repository/Wikipedia/box wikipedia search'
+
+08-07-2024T14:59:48 - [MESSAGE][PASSED] - Text 'Bob Marley' is set on object 'Object Repository/Wikipedia/box wikipedia search'
+
+08-07-2024T14:59:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-07-2024T14:59:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-07-2024T14:59:51 - [TEST_STEP][PASSED] - click(findTestObject("Wikipedia/klik button search")): Object: 'Object Repository/Wikipedia/klik button search' is clicked on
+
+08-07-2024T14:59:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Wikipedia/klik button search' is clicked on
+
+08-07-2024T14:59:54 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+08-07-2024T14:59:58 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-07-2024T14:59:39 - [TEST_SUITE][PASSED] - wiki bob marley: Test Cases/Wikipedia/Open Bob Marley]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

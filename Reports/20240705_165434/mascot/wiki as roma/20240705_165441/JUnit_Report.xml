@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="wiki as roma" time="23.414" tests="1" failures="0" errors="0">
+   <testsuite name="wiki as roma" tests="1" failures="0" errors="0" time="23.414" skipped="0" timestamp="05-07-2024T16:54:48" hostname="0789 - DESKTOP-51HVGAE" id="Test Suites/mascot/wiki as roma">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0789\\git\\CertificateV2\\Reports\\20240705_165434\\mascot\\wiki as roma\\20240705_165441"/>
+         <property name="logFiles" value="C:\\Users\\0789\\git\\CertificateV2\\Reports\\20240705_165434\\mascot\\wiki as roma\\20240705_165441\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0789 - DESKTOP-51HVGAE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.73.2"/>
+         <property name="sessionId" value="7d9eecc92c9a8a6387d9e9ea0c5750c4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Wikipedia/Open AS Roma" time="23.242" classname="Test Cases/Wikipedia/Open AS Roma" status="PASSED">
+         <system-out><![CDATA[05-07-2024T16:54:48 - [TEST_CASE][PASSED] - Test Cases/Wikipedia/Open AS Roma: Test Cases/Wikipedia/Open AS Roma
+
+05-07-2024T16:54:48 - [TEST_STEP][PASSED] - a = "https://www.wikipedia.org/": null
+
+05-07-2024T16:54:48 - [TEST_STEP][PASSED] - openBrowser(a): Browser is opened with url: 'https://www.wikipedia.org/'
+
+05-07-2024T16:54:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-07-2024T16:54:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-07-2024T16:55:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.wikipedia.org/'
+
+05-07-2024T16:55:01 - [TEST_STEP][PASSED] - setText(findTestObject("Wikipedia/box wikipedia search"), "AS Roma"): Text 'AS Roma' is set on object 'Object Repository/Wikipedia/box wikipedia search'
+
+05-07-2024T16:55:02 - [MESSAGE][PASSED] - Text 'AS Roma' is set on object 'Object Repository/Wikipedia/box wikipedia search'
+
+05-07-2024T16:55:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+05-07-2024T16:55:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+05-07-2024T16:55:05 - [TEST_STEP][PASSED] - click(findTestObject("Wikipedia/klik button search")): Object: 'Object Repository/Wikipedia/klik button search' is clicked on
+
+05-07-2024T16:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Wikipedia/klik button search' is clicked on
+
+05-07-2024T16:55:07 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+05-07-2024T16:55:11 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-07-2024T16:54:48 - [TEST_SUITE][PASSED] - wiki as roma: Test Cases/Wikipedia/Open AS Roma]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

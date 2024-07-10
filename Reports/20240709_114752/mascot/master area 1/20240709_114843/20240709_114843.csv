@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+master area 1,,,,09-07-2024 11:49:52,09-07-2024 11:49:55,2.864s,FAILED
+,,,,,,,
+Test Cases/login mascot/login,,,,09-07-2024 11:49:55,09-07-2024 11:49:55,0.055s,FAILED
+"a = ""http://206.189.158.91:8080/sparepart-factory-cms/login.zul""",,,,09-07-2024 11:49:55,09-07-2024 11:49:55,0.001s,PASSED
+openBrowser(a),,,,09-07-2024 11:49:55,09-07-2024 11:49:55,0.026s,FAILED
+,,,,,,,
+Test Cases/User Management - Master Area 1/Open Master Area 1,,,,09-07-2024 11:49:55,09-07-2024 11:49:55,0.047s,FAILED
+"a = ""http://206.189.158.91:8080/sparepart-factory-cms/login.zul""",,,,09-07-2024 11:49:55,09-07-2024 11:49:55,0.000s,PASSED
+openBrowser(a),,,,09-07-2024 11:49:55,09-07-2024 11:49:55,0.025s,FAILED

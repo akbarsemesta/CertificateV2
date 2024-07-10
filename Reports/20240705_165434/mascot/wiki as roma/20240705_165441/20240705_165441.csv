@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+wiki as roma,Chrome 126.0.0.0,,,05-07-2024 16:54:48,05-07-2024 16:55:11,23.414s,PASSED
+,,,,,,,
+Test Cases/Wikipedia/Open AS Roma,Chrome 126.0.0.0,,,05-07-2024 16:54:48,05-07-2024 16:55:11,23.242s,PASSED
+"a = ""https://www.wikipedia.org/""",Chrome 126.0.0.0,,,05-07-2024 16:54:48,05-07-2024 16:54:48,0.002s,PASSED
+openBrowser(a),Chrome 126.0.0.0,,,05-07-2024 16:54:48,05-07-2024 16:55:01,12.619s,PASSED
+"setText(findTestObject(""Wikipedia/box wikipedia search""), ""AS Roma"")",Chrome 126.0.0.0,,,05-07-2024 16:55:01,05-07-2024 16:55:02,1.206s,PASSED
+delay(3),Chrome 126.0.0.0,,,05-07-2024 16:55:02,05-07-2024 16:55:05,3.039s,PASSED
+"click(findTestObject(""Wikipedia/klik button search""))",Chrome 126.0.0.0,,,05-07-2024 16:55:05,05-07-2024 16:55:07,2.091s,PASSED
+delay(4),Chrome 126.0.0.0,,,05-07-2024 16:55:07,05-07-2024 16:55:11,4.005s,PASSED

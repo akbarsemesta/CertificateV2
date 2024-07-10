@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="wiki ac milan" time="46.81" tests="1" failures="0" errors="0">
+   <testsuite name="wiki ac milan" tests="1" failures="0" errors="0" time="46.81" skipped="0" timestamp="08-07-2024T15:05:11" hostname="0789 - DESKTOP-51HVGAE" id="Test Suites/mascot/wiki ac milan">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0789\\git\\CertificateV2\\Reports\\20240708_150450\\mascot\\wiki ac milan\\20240708_150450"/>
+         <property name="logFiles" value="C:\\Users\\0789\\git\\CertificateV2\\Reports\\20240708_150450\\mascot\\wiki ac milan\\20240708_150450\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0789 - DESKTOP-51HVGAE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.73.2"/>
+         <property name="sessionId" value="236fee58e820ebc26b4b4e99acdd0115"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Wikipedia/Open AC Milan" time="46.462" classname="Test Cases/Wikipedia/Open AC Milan" status="PASSED">
+         <system-out><![CDATA[08-07-2024T15:05:11 - [TEST_CASE][PASSED] - Test Cases/Wikipedia/Open AC Milan: Test Cases/Wikipedia/Open AC Milan
+
+08-07-2024T15:05:12 - [TEST_STEP][PASSED] - a = "https://www.wikipedia.org/": null
+
+08-07-2024T15:05:12 - [TEST_STEP][PASSED] - openBrowser(a): Browser is opened with url: 'https://www.wikipedia.org/'
+
+08-07-2024T15:05:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-07-2024T15:05:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-07-2024T15:05:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.wikipedia.org/'
+
+08-07-2024T15:05:39 - [TEST_STEP][PASSED] - setText(findTestObject("Wikipedia/box wikipedia search"), "AC Milan"): Text 'AC Milan' is set on object 'Object Repository/Wikipedia/box wikipedia search'
+
+08-07-2024T15:05:41 - [MESSAGE][PASSED] - Text 'AC Milan' is set on object 'Object Repository/Wikipedia/box wikipedia search'
+
+08-07-2024T15:05:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-07-2024T15:05:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-07-2024T15:05:45 - [TEST_STEP][PASSED] - click(findTestObject("Wikipedia/klik button search")): Object: 'Object Repository/Wikipedia/klik button search' is clicked on
+
+08-07-2024T15:05:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Wikipedia/klik button search' is clicked on
+
+08-07-2024T15:05:54 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+08-07-2024T15:05:58 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-07-2024T15:05:11 - [TEST_SUITE][PASSED] - wiki ac milan: Test Cases/Wikipedia/Open AC Milan]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

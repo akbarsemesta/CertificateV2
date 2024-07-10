@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "F35F777ECF5BB8D2F7E47880D68D1075",
+  "keywordClasses": [
+    {
+      "name": "googleMap.OpenAndMaximizeGoogleMap",
+      "keywordMethods": [
+        {
+          "name": "OpenandMaximizeBrowser",
+          "parameters": [
+            {
+              "name": "url",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

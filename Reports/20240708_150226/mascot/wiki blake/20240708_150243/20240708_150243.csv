@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+wiki blake,Chrome 126.0.0.0,,,08-07-2024 15:03:12,08-07-2024 15:03:29,16.689s,PASSED
+,,,,,,,
+Test Cases/Wikipedia/Open Blake Shelton,Chrome 126.0.0.0,,,08-07-2024 15:03:12,08-07-2024 15:03:29,16.498s,PASSED
+"openBrowser(""https://www.wikipedia.org/"")",Chrome 126.0.0.0,,,08-07-2024 15:03:13,08-07-2024 15:03:18,5.448s,PASSED
+"setText(findTestObject(""Wikipedia/box wikipedia search""), ""Blake Shelton"")",Chrome 126.0.0.0,,,08-07-2024 15:03:18,08-07-2024 15:03:19,0.892s,PASSED
+delay(3),Chrome 126.0.0.0,,,08-07-2024 15:03:19,08-07-2024 15:03:22,3.044s,PASSED
+"click(findTestObject(""Wikipedia/klik button search""))",Chrome 126.0.0.0,,,08-07-2024 15:03:22,08-07-2024 15:03:25,2.729s,PASSED
+delay(4),Chrome 126.0.0.0,,,08-07-2024 15:03:25,08-07-2024 15:03:29,4.028s,PASSED

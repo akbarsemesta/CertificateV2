@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+wiki bob marley,Chrome 126.0.0.0,,,08-07-2024 14:59:39,08-07-2024 14:59:58,19.058s,PASSED
+,,,,,,,
+Test Cases/Wikipedia/Open Bob Marley,Chrome 126.0.0.0,,,08-07-2024 14:59:39,08-07-2024 14:59:58,18.845s,PASSED
+"openBrowser(""https://www.wikipedia.org/"")",Chrome 126.0.0.0,,,08-07-2024 14:59:40,08-07-2024 14:59:47,7.554s,PASSED
+"setText(findTestObject(""Wikipedia/box wikipedia search""), ""Bob Marley"")",Chrome 126.0.0.0,,,08-07-2024 14:59:47,08-07-2024 14:59:48,1.159s,PASSED
+delay(3),Chrome 126.0.0.0,,,08-07-2024 14:59:48,08-07-2024 14:59:51,3.045s,PASSED
+"click(findTestObject(""Wikipedia/klik button search""))",Chrome 126.0.0.0,,,08-07-2024 14:59:51,08-07-2024 14:59:54,2.750s,PASSED
+delay(4),Chrome 126.0.0.0,,,08-07-2024 14:59:54,08-07-2024 14:59:58,4.013s,PASSED

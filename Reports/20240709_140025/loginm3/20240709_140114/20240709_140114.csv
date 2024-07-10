@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+loginm3,,,,09-07-2024 14:02:16,09-07-2024 14:02:18,1.960s,FAILED
+,,,,,,,
+Test Cases/login mascot/loginai1,,,,09-07-2024 14:02:18,09-07-2024 14:02:18,0.050s,FAILED
+"openBrowser("""")",,,,09-07-2024 14:02:18,09-07-2024 14:02:18,0.028s,FAILED

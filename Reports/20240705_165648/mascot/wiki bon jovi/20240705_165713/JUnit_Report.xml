@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="wiki bon jovi" time="17.165" tests="1" failures="0" errors="0">
+   <testsuite name="wiki bon jovi" tests="1" failures="0" errors="0" time="17.165" skipped="0" timestamp="05-07-2024T16:57:19" hostname="0789 - DESKTOP-51HVGAE" id="Test Suites/mascot/wiki bon jovi">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0789\\git\\CertificateV2\\Reports\\20240705_165648\\mascot\\wiki bon jovi\\20240705_165713"/>
+         <property name="logFiles" value="C:\\Users\\0789\\git\\CertificateV2\\Reports\\20240705_165648\\mascot\\wiki bon jovi\\20240705_165713\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0789 - DESKTOP-51HVGAE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.73.2"/>
+         <property name="sessionId" value="9a9556d5b12d3d63c4e13356ae2ae611"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Wikipedia/Open Bon Jovi" time="16.998" classname="Test Cases/Wikipedia/Open Bon Jovi" status="PASSED">
+         <system-out><![CDATA[05-07-2024T16:57:19 - [TEST_CASE][PASSED] - Test Cases/Wikipedia/Open Bon Jovi: Test Cases/Wikipedia/Open Bon Jovi
+
+05-07-2024T16:57:20 - [TEST_STEP][PASSED] - openBrowser("https://www.wikipedia.org/"): Browser is opened with url: 'https://www.wikipedia.org/'
+
+05-07-2024T16:57:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-07-2024T16:57:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-07-2024T16:57:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.wikipedia.org/'
+
+05-07-2024T16:57:26 - [TEST_STEP][PASSED] - setText(findTestObject("Wikipedia/box wikipedia search"), "Bon Jovi"): Text 'Bon Jovi' is set on object 'Object Repository/Wikipedia/box wikipedia search'
+
+05-07-2024T16:57:27 - [MESSAGE][PASSED] - Text 'Bon Jovi' is set on object 'Object Repository/Wikipedia/box wikipedia search'
+
+05-07-2024T16:57:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+05-07-2024T16:57:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+05-07-2024T16:57:30 - [TEST_STEP][PASSED] - click(findTestObject("Wikipedia/klik button search")): Object: 'Object Repository/Wikipedia/klik button search' is clicked on
+
+05-07-2024T16:57:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Wikipedia/klik button search' is clicked on
+
+05-07-2024T16:57:32 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+05-07-2024T16:57:36 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-07-2024T16:57:19 - [TEST_SUITE][PASSED] - wiki bon jovi: Test Cases/Wikipedia/Open Bon Jovi]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

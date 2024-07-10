@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+loginm3,,,,09-07-2024 14:57:04,09-07-2024 14:57:06,2.028s,FAILED
+,,,,,,,
+Test Cases/Wikipedia/Open AC Milan,,,,09-07-2024 14:57:06,09-07-2024 14:57:06,0.050s,FAILED
+"a = ""https://www.wikipedia.org/""",,,,09-07-2024 14:57:06,09-07-2024 14:57:06,0.000s,PASSED
+openBrowser(a),,,,09-07-2024 14:57:06,09-07-2024 14:57:06,0.028s,FAILED

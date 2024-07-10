@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "CA5BE136229006FBEB30E1111FB0CE0D",
+  "keywordClasses": [
+    {
+      "name": "radana.openAndMaximizeRadana",
+      "keywordMethods": [
+        {
+          "name": "OpenandMaximizeBrowser",
+          "parameters": [
+            {
+              "name": "url",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

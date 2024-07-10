@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+wiki blake,,,,09-07-2024 14:24:36,09-07-2024 14:24:38,1.977s,FAILED
+,,,,,,,
+Test Cases/Wikipedia/Open Blake Shelton,,,,09-07-2024 14:24:38,09-07-2024 14:24:38,0.069s,FAILED
+"openBrowser(""https://www.wikipedia.org/"")",,,,09-07-2024 14:24:38,09-07-2024 14:24:38,0.031s,FAILED

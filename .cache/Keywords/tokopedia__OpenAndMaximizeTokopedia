@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "13E6CFA1BDFF280AD1C0B308271F40B8",
+  "keywordClasses": [
+    {
+      "name": "tokopedia.OpenAndMaximizeTokopedia",
+      "keywordMethods": [
+        {
+          "name": "OpenandMaximizeBrowser",
+          "parameters": [
+            {
+              "name": "url",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

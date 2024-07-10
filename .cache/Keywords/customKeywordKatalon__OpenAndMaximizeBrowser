@@ -1,0 +1,29 @@
+{
+  "keywordFileContentHash": "FF914CBCE852D5384DC40D1644E0509F",
+  "keywordClasses": [
+    {
+      "name": "customKeywordKatalon.OpenAndMaximizeBrowser",
+      "keywordMethods": [
+        {
+          "name": "OpenandMaximizeBrowser",
+          "parameters": [
+            {
+              "name": "url",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}
